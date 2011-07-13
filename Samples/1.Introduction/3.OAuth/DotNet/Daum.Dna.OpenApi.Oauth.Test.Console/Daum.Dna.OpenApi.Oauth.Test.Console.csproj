@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevDefined.OAuth">
-      <HintPath>..\..\..\..\..\Downloads\DevDefinedOAuthPreview1-ReleaseBins\bin\DevDefined.OAuth.dll</HintPath>
+      <HintPath>..\DevDefined.OAuth.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="OAuthProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
